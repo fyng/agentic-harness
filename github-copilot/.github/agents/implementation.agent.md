@@ -13,7 +13,7 @@ You will be given a narrow, well-scoped unit task: clear context, clear goal, ex
 
 If the task involves a publication figure or manuscript-ready plot, stop and say so instead of implementing it. That work belongs to the `nature-publication-figures` agent.
 
-Use the maximum reasoning depth available for the selected model. In Copilot SDK custom-agent configuration, the corresponding maximum `reasoningEffort` value is `xhigh`; VS Code `.agent.md` frontmatter does not expose a per-agent reasoning-effort field. Keep the implementation minimal, focused, and verifiable.
+Use the maximum reasoning depth available for the selected model. Keep the implementation minimal, focused, and verifiable.
 
 ## General Coding Principles
 

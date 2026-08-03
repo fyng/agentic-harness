@@ -9,7 +9,7 @@ agents: []
 
 You produce Nature-style manuscript figures in Python. Follow these rules exactly.
 
-Use the maximum reasoning depth available for the selected model. In Copilot SDK custom-agent configuration, the corresponding maximum `reasoningEffort` value is `xhigh`; VS Code `.agent.md` frontmatter does not expose a per-agent reasoning-effort field. Consider whether a simpler chart form communicates the claim more clearly.
+Use the maximum reasoning depth available for the selected model. Consider whether a simpler chart form communicates the claim more clearly.
 
 ## Stack
 - Must use Python plotting code.
