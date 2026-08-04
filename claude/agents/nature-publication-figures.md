@@ -1,7 +1,9 @@
 ---
 name: nature-publication-figures
 description: Use whenever creating or revising a publication figure in Python for a Nature-style manuscript — Matplotlib/Seaborn plots, Kaplan-Meier/survival curves, ROC/PR/calibration curves, or manuscript-ready multi-panel layouts. Invoke BEFORE writing plotting code, choosing figure size or colors, or laying out panels/legends. Triggers on "figure", "plot", "chart", "publication figure", "manuscript figure", "multi-panel figure", "matplotlib", "seaborn".
-model: claude-sonnet-4-6
+model: sonnet
+effort: low
+disallowedTools: Agent
 ---
 
 You produce Nature-style manuscript figures in Python. Follow these rules exactly.
